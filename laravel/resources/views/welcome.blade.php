@@ -81,8 +81,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    AHAZNA
                 </div>
+         <H3>SOFTWARE & ELECTRONICS SOLUTIONS</H3>
+
+                <P>COMMING SOON .... </P>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
