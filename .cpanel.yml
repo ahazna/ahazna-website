@@ -2,3 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ahazptov/repositories/ahazna-website
+    - bin/cp -R laravel $DEPLOYPATH
