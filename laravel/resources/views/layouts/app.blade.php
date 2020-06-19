@@ -20,7 +20,7 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                  <a href="/"><img src="{{ asset('storage/images/logo.png')}}" height="48" class="mr-3"></a>
+                  <a href="/"><img src="{{ asset('images/logo.png')}}" height="48" class="mr-3"></a>
                   <a class="navbar-brand" href="/"> AHAZ</a>
                     
                     <ul class="nav nav-menu">
