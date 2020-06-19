@@ -1,8 +1,103 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+html, body {
+    background-color: #1e4949;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+.navbar-brand{
+	color: #fff;
+	//font-weight: 900;
+	//font-family: 'Lato', sans-serif;
+	font-size: xx-large;
+	font-family: 'Abril Fatface', cursive;
+}
+
+a{
+	color: #fff;
+}
+
+a:hover {
+    color: #FF9800;
+}
+
+.nav-menu {
+
+	padding-top: 17px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Nunito', sans-serif;
+
+    //padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.nav-link:hover, .nav-link:focus {
+	
+    //text-decoration: underline;
+    //text-decoration-style: wavy;
+
+
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+    font-family: 'Suez One', serif;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
