@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Ahaz - Software & Electronics Solutions</title>
+        <title>Ahaz - Electronic & Software Solutions</title>
 
         <!-- Fonts -->
 
@@ -25,19 +25,20 @@
                     
                     <ul class="nav nav-menu">
                       <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link" href="http://127.0.0.1:8000/">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="/about">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Our Services</a>
+                        <a class="nav-link" href="/our-services">Our Services</a>
+                      </li>
+                    
+                      <li class="nav-item">
+                        <a class="nav-link" href="/contactus">Contact Us</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Vacancy</a>
+                        <a class="nav-link" href="/vacancy">Vacancy</a>
                       </li>
                       
                     </ul>
@@ -48,6 +49,54 @@
 
 
             @yield('content')
+
+            <div class="container-flud footer">
+              
+              <div class="row">
+               
+                <div class="col-md-4" style="border-left: 1px solid #b6babd;">
+
+                   <p style="color: #d77464">Our Products</p>
+
+                    <p class="mt-3"><a href="#">Smart Id card</a></p>
+                    <p><a href="#">Electronic tracking devices</a></p>
+                    <p><a href="#">Electronic security devices</a></p>
+
+                </div>
+
+                
+                <div class="col-md-4" style="border-left: 1px solid #b6babd;">
+                  
+                  <p style="color: #d77464">Our Services</p>
+
+                  <p class="mt-3"><a href="#">Website Design & Development</a></p>
+                  <p><a href="#">Software Development</a></p>
+                  <p><a href="#">Network Installation</a></p>
+                  <p><a href="#">ICT Consultancy</a></p>
+
+                </div>
+
+                  
+                
+                <div class="col-md-4" style="border-left: 1px solid #b6babd;">
+                
+                <p style="color: #d77464">Contact Us</p>
+
+                  <p class="mt-3">Nileplex plaza, Mekelle, Tigray, Ethiopia</p>
+                  <p>Phone: (+251) 914 -024366</p>
+                  <p>Email: contact@ahazna.com</p>
+
+                <p style="text-align: left; color: #d77464">Ethiopia</p>
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="container-flud privacy-footer">
+              
+              <p style="text-align: center; margin-bottom: 0px;"><img src="{{ asset('images/logo.png')}}" height="48" class="mr-2 p-2"> @ 2020 Ahaz Electronic & Software Solutions Pty Ltd company</p>
+            </div>
 
             <script type="text/javascript" src="/js/app.js"></script>
         </body>

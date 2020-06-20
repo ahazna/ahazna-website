@@ -20,7 +20,7 @@
             <div class="content">
                 
                 <div class="title m-b-md"> AHAZ </div>
-                <H3>SOFTWARE & ELECTRONICS SOLUTIONS</H3>
+                <H3>Electronic & Software Solutions</H3>
                 <P>COMMING SOON .... </P>
 
             

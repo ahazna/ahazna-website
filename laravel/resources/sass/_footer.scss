@@ -1,0 +1,29 @@
+
+.footer{
+	// Body
+background-color: #f8fafc;
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+color: black !important;
+padding: 48px;
+text-align: center;
+font-size: 13px;
+font-weight: 400;
+letter-spacing: 0.1rem;
+text-decoration: none;
+text-transform: uppercase;
+
+}
+
+p{
+	text-align: left;
+	color: black;
+}
+
+.privacy-footer{
+
+	background-color: #b6babd;
+
+}
