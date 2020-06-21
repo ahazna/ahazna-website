@@ -1,5 +1,6 @@
-/public/hot
 /storage/*.key
+/public/index.php
+/public/.htaccess
 /vendor
 .env
 .env.backup
