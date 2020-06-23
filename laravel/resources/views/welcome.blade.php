@@ -21,7 +21,7 @@
                 
                 <div class="title m-b-md"> AHAZ </div>
                 <H3>Electronic & Software Solutions</H3>
-                <P> .... COMMING SOON .... </P>
+                <P> --- We think ahead --- </P>
 
             
             </div>
