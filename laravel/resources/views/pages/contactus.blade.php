@@ -19,6 +19,11 @@
     				</div>
 
     				<div class="form-group">
+    					<label for="inputphone">Phone</label>
+    					<input type="tel" class="form-control" id="phone" maxlength="14" required>
+    				</div>
+
+    				<div class="form-group">
     					<label for="exampleFormControlTextarea3">Text</label>
     					<textarea class="form-control" id="exampleFormControlTextarea3" rows="4" placeholder="Send us your message" required></textarea>
     				</div>

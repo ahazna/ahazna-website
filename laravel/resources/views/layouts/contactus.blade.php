@@ -20,7 +20,7 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                  <a href="/"><img src="{{ asset('images/logo.png')}}" height="48" class="mr-3"></a>
+                  <a href="/"><img src="{{ asset('storage/images/logo.png')}}" height="48" class="mr-3"></a>
                   <a class="navbar-brand" href="/"> AHAZ</a>
                     
                     <ul class="nav nav-menu">
@@ -95,7 +95,7 @@
             </div>
             <div class="container-flud privacy-footer">
               
-              <p style="text-align: center; margin-bottom: 0px;"><img src="{{ asset('images/logo.png')}}" height="48" class="mr-2 p-2"> @ 2020 Ahaz Electronic & Software Solutions</p>
+              <p style="text-align: center; margin-bottom: 0px;"><img src="{{ asset('storage/images/logo.png')}}" height="48" class="mr-2 p-2"> @ 2020 Ahaz Electronic & Software Solutions</p>
             </div>
 
             <script type="text/javascript" src="/js/app.js"></script>
