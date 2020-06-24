@@ -100,7 +100,7 @@
 
             </div> 
 
-      <div class="container-flud footer mastfoot mt-auto d-block d-sm-none">
+      <div class="container-flud text-center footer mastfoot mt-auto d-block d-sm-none">
               
               <div class="row inner">
                
