@@ -1,4 +1,5 @@
 /storage/*.key
+.DS_Store
 /public/index.php
 /public/.htaccess
 /vendor
@@ -10,3 +11,4 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+ 

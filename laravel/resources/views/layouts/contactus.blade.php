@@ -10,25 +10,30 @@
 
         <link rel="stylesheet" type="text/css" href="/css/contactus.css">
 
+
      </head>
         <body>
 
             <div class="container navbar-bg">
 
-                <nav class="navbar navbar-expand-lg">
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <nav class="navbar navbar-expand-sm">
+            
+
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
                   <a href="/"><img src="{{ asset('storage/images/logo.png')}}" height="48" class="mr-3"></a>
                   <a class="navbar-brand" href="/"> AHAZ</a>
                     
                     <ul class="nav nav-menu">
                       <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="/about">About</a>
+                        <a class="nav-link" href="/about">About Us</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="/our-services">Our Services</a>
@@ -38,12 +43,23 @@
                         <a class="nav-link" href="/contactus">Message Us</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="/vacancy">Vacancy</a>
+                        <a class="nav-link" href="/vacancy">Jobs</a>
+                      </li>
+                      
+                    </ul>
+
+                    <ul class="nav nav-menu justify-content-end">
+                      <li class="nav-item">
+                        <a class="nav-link active"  style="border-right: 1px solid white;" href="#">EN</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">TG</a>
                       </li>
                       
                     </ul>
 
                   </div>
+
                 </nav>
             </div>
 
@@ -98,7 +114,8 @@
               <p style="text-align: center; margin-bottom: 0px;"><img src="{{ asset('storage/images/logo.png')}}" height="48" class="mr-2 p-2"> @ 2020 Ahaz Electronic & Software Solutions</p>
             </div>
 
-            <script type="text/javascript" src="/js/app.js"></script>
+            <script src="{{ asset('js/app.js')}}"></script>
+
         </body>
 
 </html>

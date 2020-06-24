@@ -154,6 +154,15 @@ p >a:hover {
     text-align: center;
 }
 
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px;
+}
+
 .title {
     font-size: 84px;
     font-family: 'Suez One', serif;

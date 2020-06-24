@@ -15,14 +15,15 @@
 
             <div class="container">
 
+              <header class="masthead mb-auto">
+              <div class="inner">
+
+                <h3 class="navbar-brand" href="/">
+                    <img src="{{ asset('storage/images/logo.png')}}" height="42" class="mr-3">AHAZ
+                </h3>
+
                 <nav class="navbar navbar-expand-lg">
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                  <a href="/"><img src="{{ asset('storage/images/logo.png')}}" height="48" class="mr-3"></a>
-                  <a class="navbar-brand" href="/"> AHAZ</a>
-                    
+                  
                     <ul class="nav nav-menu">
                       <li class="nav-item">
                         <a class="nav-link" href="/">Home</a>
@@ -43,8 +44,9 @@
                       
                     </ul>
 
-                  </div>
                 </nav>
+              </div>
+            </header>
             </div>
 
 

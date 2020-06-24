@@ -20,6 +20,14 @@ html, body {
     height: 100vh;
     margin: 0;
 }
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
 .navbar-brand{
 	color: #fff;
 	//font-weight: 900;
@@ -81,7 +89,6 @@ p >a:hover {
 	
     //text-decoration: underline;
     //text-decoration-style: wavy;
-
 
 }
 

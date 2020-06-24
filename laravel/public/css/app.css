@@ -15,7 +15,6 @@
 
 p {
   text-align: left;
-  color: black;
 }
 
 .privacy-footer {
@@ -10958,6 +10957,14 @@ body {
   font-weight: 200;
   height: 100vh;
   margin: 0;
+}
+
+/*
+ * Header
+ */
+
+.masthead {
+  margin-bottom: 2rem;
 }
 
 .navbar-brand {
