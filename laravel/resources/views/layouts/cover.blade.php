@@ -33,18 +33,20 @@
   <body class="text-center">
 
   <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
+ 
   <header class="masthead mb-auto">
     <div class="inner">
       <h3 class="masthead-brand">
-        <img src="{{ asset('storage/images/logo.png')}}" height="42" class="mr-3">
-        AHAZ
+        <a href="/" style="text-decoration: none;" ><img src="{{ asset('storage/images/logo.png')}}" height="36" class="mr-2">
+        AHAZ</a>
       </h3>
       <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="#">Home</a>
-        <a class="nav-link" href="#">About</a>
-        <a class="nav-link" href="#">Our Services</a>
-        <a class="nav-link" href="#">Message Us</a>
-        <a class="nav-link" href="#">Jobs</a>
+        <a class="nav-link active" href="/">Home</a>
+        <a class="nav-link" href="/Projects">Projects</a>
+        <a class="nav-link" href="/our-services">Our Services</a>
+        <a class="nav-link" href="/team">Team</a>
+        <a class="nav-link" href="/contactus">Contact</a>
+        <a class="nav-link" href="/jobs">Jobs</a>
       </nav>
     </div>
   </header>
@@ -52,13 +54,100 @@
 
     @yield('content')
 
-  <footer class="mastfoot mt-auto">
-    <div class="inner">
-      <p><img src="{{ asset('storage/images/logo.png')}}" height="28" class="mr-3"> Ahaz Electronic & Software Solutions @ 2020 </p>
-    </div>
-  </footer>
 </div>
 
+<div class="container-flud footer mastfoot mt-auto d-none d-sm-block">
+              
+              <div class="row inner">
+               
+                <div class="col-md-4" style="border-left: 1px solid #b6babd;">
+
+                   <p style="color: #d77464">Our Products</p>
+
+                    <p class="mt-3"><a href="#">Smart Id card</a></p>
+                    <p><a href="#">Electronic tracking devices</a></p>
+                    <p><a href="#">Electronic security devices</a></p>
+
+                </div>
+
+                
+                <div class="col-md-4" style="border-left: 1px solid #b6babd;">
+                  
+                  <p style="color: #d77464">Our Services</p>
+
+                  <p class="mt-3"><a href="#">Website Design & Development</a></p>
+                  <p><a href="#">Software Development</a></p>
+                  <p><a href="#">Network Installation</a></p>
+                  <p><a href="#">ICT Consultancy</a></p>
+
+                </div>
+
+                  
+                
+                <div class="col-md-4" style="border-left: 1px solid #b6babd;">
+                
+                <p style="color: #d77464">Contact Us</p>
+
+                  <p class="mt-3">Nileplex plaza, Mekelle, Tigray, Ethiopia</p>
+                  <p>Phone: (+251) 914 -024366</p>
+                  <p>Email: contact@ahazna.com</p>
+
+                <p style="text-align: left; color: #d77464">Ethiopia</p>
+
+                </div>
+
+              </div>
+
+            </div> 
+
+      <div class="container-flud footer mastfoot mt-auto d-block d-sm-none">
+              
+              <div class="row inner">
+               
+                <div class="col-md-4 mb-2" style="border-bottom: 1px solid #b6babd;">
+
+                   <p style="color: #d77464">Our Products</p>
+
+                    <p class="mt-3"><a href="#">Smart Id card</a></p>
+                    <p><a href="#">Electronic tracking devices</a></p>
+                    <p><a href="#">Electronic security devices</a></p>
+
+                </div>
+
+                
+                <div class="col-md-4 mb-2" style="border-bottom: 1px solid #b6babd;">
+                  
+                  <p style="color: #d77464">Our Services</p>
+
+                  <p class="mt-3"><a href="#">Website Design & Development</a></p>
+                  <p><a href="#">Software Development</a></p>
+                  <p><a href="#">Network Installation</a></p>
+                  <p><a href="#">ICT Consultancy</a></p>
+
+                </div>
+
+                  
+                
+                <div class="col-md-4">
+                
+                <p style="color: #d77464">Contact Us</p>
+
+                  <p class="mt-3">Nileplex plaza, Mekelle, Tigray, Ethiopia</p>
+                  <p>Phone: (+251) 914 -024366</p>
+                  <p>Email: contact@ahazna.com</p>
+
+                <p style="text-align: left; color: #d77464">Ethiopia</p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="container-flud privacy-footer">
+              
+              <p style="text-align: center; margin-bottom: 0px; color: #2c3e50;"><img src="{{ asset('storage/images/logo.png')}}" height="48" class="mr-2 p-2">Ahaz Electronic & Software Solutions @ 2020 </p>
+            </div>
      <script src="{{ asset('js/app.js')}}"></script>
 
 </body>

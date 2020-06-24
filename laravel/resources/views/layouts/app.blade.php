@@ -19,7 +19,7 @@
               <div class="inner">
 
                 <h3 class="navbar-brand" href="/">
-                    <img src="{{ asset('storage/images/logo.png')}}" height="42" class="mr-3">AHAZ
+                    <a href="/"><img src="{{ asset('storage/images/logo.png')}}" height="42" class="mr-3">AHAZ</a>
                 </h3>
 
                 <nav class="navbar navbar-expand-lg">
@@ -39,7 +39,7 @@
                         <a class="nav-link" href="/contactus">Message Us</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="/vacancy">Vacancy</a>
+                        <a class="nav-link" href="/jobs">Jobs</a>
                       </li>
                       
                     </ul>

@@ -17,4 +17,4 @@ Route::get('/', 'WelcomeController@index');
 Route::get('contactus','ContactUsController@index');
 Route::get('about','AboutController@index');
 Route::get('our-services','OurServicesController@index');
-Route::get('vacancy','VacancyController@index');
+Route::get('jobs','VacancyController@index');
