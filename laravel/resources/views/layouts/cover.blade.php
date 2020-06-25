@@ -41,17 +41,18 @@
         AHAZ</a>
       </h3>
       <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="/">Home</a>
-        <a class="nav-link" href="/projects">Products</a>
-        <a class="nav-link" href="/services">Services</a>
-        <a class="nav-link" href="/projects">Projects</a>
-        <a class="nav-link" href="/team">Team</a>
-        <a class="nav-link" href="/contactus">Contact</a>
-        <a class="nav-link" href="/jobs">Jobs</a>
+        <a class="nav-link {{(Route::currentRouteName() == 'home') ? 'active':''}}" href="/">Home</a>
+        <a class="nav-link {{(Route::currentRouteName() == 'products') ? 'active':''}}" href="/products">Products</a>
+        <a class="nav-link {{(Route::currentRouteName() == 'services') ? 'active':''}}" href="/services">Services</a>
+        <a class="nav-link {{(Route::currentRouteName() == 'projects') ? 'active':''}}" href="/projects">Projects</a>
+        <a class="nav-link {{(Route::currentRouteName() == 'team') ? 'active':''}}" href="/team">Team</a>
+        <a class="nav-link {{(Route::currentRouteName() == 'contactus') ? 'active':''}}" href="/contactus">Contact</a>
+        <a class="nav-link {{(Route::currentRouteName() == 'jobs') ? 'active':''}}" href="/jobs">Jobs</a>
       </nav>
     </div>
   </header>
   
+
 
     @yield('content')
 

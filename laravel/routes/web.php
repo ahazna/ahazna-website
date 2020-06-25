@@ -13,11 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'WelcomeController@index');
-Route::get('contactus','ContactUsController@index');
-Route::get('about','AboutController@index');
-Route::get('services','ServicesController@index');
-Route::get('jobs','VacancyController@index');
-Route::get('team','TeamController@index');
-Route::get('our-products','OurProductController@index');
-Route::get('projects','ProjectsController@index');
+Route::get('/', 'WelcomeController@index')->name('home');
+Route::get('contactus','ContactUsController@index')->name('contactus');
+Route::get('about','AboutController@index')->name('about');
+Route::get('services','ServicesController@index')->name('services');
+Route::get('jobs','VacancyController@index')->name('jobs');
+Route::get('team','TeamController@index')->name('team');
+Route::get('products','ProductsController@index')->name('products');
+Route::get('projects','ProjectsController@index')->name('projects');
