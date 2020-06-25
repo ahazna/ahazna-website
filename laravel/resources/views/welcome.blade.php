@@ -1,8 +1,8 @@
-@extends('layouts.app')
+@extends('layouts.cover')
 
 @section('content')
 
-    <div class="flex-center position-ref full-height">
+    <div class="container m-auto">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -19,9 +19,8 @@
 
             <div class="content">
                 
-                <div class="title m-b-md"> AHAZ </div>
+                <h1> AHAZ </h1>
                 <H3>Electronic & Software Solutions</H3>
-                <P> --- We think ahead --- </P>
 
             
             </div>

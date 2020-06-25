@@ -25,8 +25,9 @@
       </h3>
       <nav class="nav nav-masthead justify-content-center">
         <a class="nav-link active" href="/">Home</a>
-        <a class="nav-link" href="/Projects">Projects</a>
-        <a class="nav-link" href="/our-services">Our Services</a>
+        <a class="nav-link" href="/projects">Products</a>
+        <a class="nav-link" href="/services">Services</a>
+        <a class="nav-link" href="/projects">Projects</a>
         <a class="nav-link" href="/team">Team</a>
         <a class="nav-link" href="/contactus">Contact</a>
         <a class="nav-link" href="/jobs">Jobs</a>

@@ -34,7 +34,7 @@
 
   <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
  
-  <header class="masthead mb-auto">
+  <header class="masthead">
     <div class="inner">
       <h3 class="masthead-brand">
         <a href="/" style="text-decoration: none;" ><img src="{{ asset('storage/images/logo.png')}}" height="36" class="mr-2">
@@ -42,8 +42,9 @@
       </h3>
       <nav class="nav nav-masthead justify-content-center">
         <a class="nav-link active" href="/">Home</a>
-        <a class="nav-link" href="/Projects">Projects</a>
-        <a class="nav-link" href="/our-services">Our Services</a>
+        <a class="nav-link" href="/projects">Products</a>
+        <a class="nav-link" href="/services">Services</a>
+        <a class="nav-link" href="/projects">Projects</a>
         <a class="nav-link" href="/team">Team</a>
         <a class="nav-link" href="/contactus">Contact</a>
         <a class="nav-link" href="/jobs">Jobs</a>
