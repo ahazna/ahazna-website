@@ -42,7 +42,7 @@
 
     <div class="container-flud footer mastfoot mt-auto d-none d-sm-block">
       
-      <div class="row inner">
+      <div class="row inner footer-menu">
        
         <div class="col-md-4" style="border-left: 1px solid #b6babd;">
 
@@ -52,10 +52,10 @@
          <p><a href="#">Electronic tracking devices</a></p>
          <p><a href="#">Electronic security devices</a></p>
 
-       </div>
+        </div>
 
        
-       <div class="col-md-4" style="border-left: 1px solid #b6babd;">
+        <div class="col-md-4" style="border-left: 1px solid #b6babd;">
         
         <p style="color: #d77464">Our Services</p>
 
@@ -64,11 +64,11 @@
         <p><a href="#">Network Installation</a></p>
         <p><a href="#">ICT Consultancy</a></p>
 
-      </div>
+        </div>
 
       
       
-      <div class="col-md-4" style="border-left: 1px solid #b6babd;">
+        <div class="col-md-4" style="border-left: 1px solid #b6babd;">
         
         <p style="color: #d77464">Contact Us</p>
 
@@ -78,15 +78,19 @@
 
         <p style="text-align: left; color: #d77464">Ethiopia</p>
 
-      </div>
+        </div>
 
     </div>
+
+    <div class="privacy-footer">
+        <p style="text-align: center; margin-bottom: 0px; color: #2c3e50;"><img src="{{ asset('storage/images/logo.png')}}" height="48" class="mr-2 p-2">Ahaz Electronic & Software Solutions @ 2020 </p>
+      </div>
 
   </div> 
 
   <div class="container-flud text-center footer mastfoot text-center mt-auto d-block d-sm-none">
     
-    <div class="row inner">
+    <div class="row inner footer-menu">
      
       <div class="col-md-4 mb-2 footer-center-sm" style="border-bottom: 1px solid #b6babd;">
 
@@ -126,12 +130,18 @@
 
   </div>
 
+  <div class="row privacy-footer" style="display: block;">
+        <p style="margin-bottom: 0px; color: #2c3e50; text-align: center;"><img src="{{ asset('storage/images/logo.png')}}" height="48" class="mr-2 p-2">Ahaz Electronic & Software Solutions @ 2020 </p>
+  </div>
+
 </div>
 
-            <div class="container-flud privacy-footer">
+            <!-- <div class="container-flud privacy-footer">
               
               <p style="text-align: center; margin-bottom: 0px; color: #2c3e50;"><img src="{{ asset('storage/images/logo.png')}}" height="48" class="mr-2 p-2">Ahaz Electronic & Software Solutions @ 2020 </p>
-            </div>
-     <script src="{{ asset('js/app.js')}}"></script>
+            </div> -->
+
+ <script type="text/javascript" href="/js/app.js"></script>
+
 
 </body>

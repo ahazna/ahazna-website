@@ -3,9 +3,21 @@
 @section('content')
 
 
-<div class="container-fluid m-auto background-img d-flex w-100 h-100 p-3 mx-auto flex-column">
+<div class="container-fluid m-auto background-img d-flex w-100 p-3 mx-auto flex-column">
 
-<div class="inner container m-auto cover p-3 mx-auto">
+    <div class="inner container m-auto p-3 mx-auto">
+        
+       <main role="main" class="inner cover">
+        <h1 class="cover-heading">Cover your page.</h1>
+        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+        <p class="lead">
+          <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+        </p>
+      </main>
+
+    </div>
+
+<!-- <div class="inner container m-auto cover p-3 mx-auto">
     <div class="row col-md-6 m-auto card text-center">
       <div class="card-header">
         CONTACT US
@@ -17,10 +29,11 @@
             <p class="card-text">PHONE: +251 914 0243 66</p>
             <a href="mailto:contact@nahazna.com" class="btn btn-primary">Contact@ahazna.com</a>
         </div>
-        <div class="card-footer text-muted">
+
+      <div class="card-footer text-muted">
             Thank you for reaching us
         </div>
-    </div>
+    </div> -->
 </div>
 
 <!--   <div class="inner cover p-3 mx-auto">

@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="container-fluid m-auto d-flex w-100 p-3 mx-auto flex-column">
+<div class="container-fluid m-auto d-flex w-100 h-100 p-3 mx-auto flex-column">
 
 	<div class="inner container m-auto cover p-3 mx-auto d-none d-md-block">
 
