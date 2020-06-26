@@ -1,6 +1,37 @@
 
 .footer{
-	// Body
+
+	//position: fixed;
+    //bottom: 0px;
+    //left: 0px;
+    //right: 0px;
+    //margin-bottom: 0px;
+
+ 	position: relative;
+    //left: 0;
+    bottom: 0;
+    ///height: 100px;
+    ///width: 100%;
+    //overflow: hidden;
+
+}
+
+p{
+	text-align: left;
+}
+
+.privacy-footer{
+
+	background-color: #b6babd;
+}
+
+privacy-footer > p{
+		
+	text-align: center !important;
+
+}
+.footer-menu {
+		// Body
 background-color: #f8fafc;
 // Typography
 $font-family-sans-serif: 'Nunito', sans-serif;
@@ -14,15 +45,4 @@ font-weight: 400;
 letter-spacing: 0.1rem;
 text-decoration: none;
 text-transform: uppercase;
-
-}
-
-p{
-	text-align: left;
-}
-
-.privacy-footer{
-
-	background-color: #b6babd;
-
 }

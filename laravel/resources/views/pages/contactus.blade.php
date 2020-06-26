@@ -6,7 +6,7 @@
 <div class="container-fluid m-auto background-img d-flex w-100 h-100 p-3 mx-auto flex-column">
 
 <div class="inner container m-auto cover p-3 mx-auto">
-    <div class="row col-md-6 offset-3 card text-center">
+    <div class="row col-md-6 m-auto card text-center">
       <div class="card-header">
         CONTACT US
       </div>

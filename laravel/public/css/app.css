@@ -2,6 +2,23 @@
 
 400;900&display=swap);@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald&display=swap);@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);@import url(https://fonts.googleapis.com/css2?family=Suez+One&display=swap);@charset "UTF-8";
 .footer {
+  position: relative;
+  bottom: 0;
+}
+
+p {
+  text-align: left;
+}
+
+.privacy-footer {
+  background-color: #b6babd;
+}
+
+privacy-footer > p {
+  text-align: center !important;
+}
+
+.footer-menu {
   background-color: #f8fafc;
   color: black !important;
   padding: 48px;
@@ -11,14 +28,6 @@
   letter-spacing: 0.1rem;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-p {
-  text-align: left;
-}
-
-.privacy-footer {
-  background-color: #b6babd;
 }
 
 /*!

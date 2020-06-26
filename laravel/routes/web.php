@@ -17,7 +17,7 @@ Route::get('/', 'WelcomeController@index')->name('home');
 Route::get('contactus','ContactUsController@index')->name('contactus');
 Route::get('about','AboutController@index')->name('about');
 Route::get('services','ServicesController@index')->name('services');
-Route::get('jobs','VacancyController@index')->name('jobs');
+Route::get('jobs','JobsController@index')->name('jobs');
 Route::get('team','TeamController@index')->name('team');
 Route::get('products','ProductsController@index')->name('products');
 Route::get('projects','ProjectsController@index')->name('projects');
