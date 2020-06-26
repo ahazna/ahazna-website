@@ -109,49 +109,49 @@
 
 <div class="container-flud text-center w-100 p-0 mastfoot text-center mt-auto d-md-none">
               
-              <div class="row inner footer-menu">
-               
-                <div class="col-md-4 mb-2 footer-center-sm" style="border-bottom: 1px solid #b6babd;">
+        <div class="row inner footer-menu">
+         
+          <div class="col-md-4 mb-2 footer-center-sm" style="border-bottom: 1px solid #b6babd;">
 
-                   <p style="color: #d77464;">Our Products</p>
+             <p style="color: #d77464;">Our Products</p>
 
-                    <p class="mt-3"><a href="#">Smart Id card</a></p>
-                    <p><a href="#">Electronic tracking devices</a></p>
-                    <p><a href="#">Electronic security devices</a></p>
+              <p class="mt-3"><a href="#">Smart Id card</a></p>
+              <p><a href="#">Electronic tracking devices</a></p>
+              <p><a href="#">Electronic security devices</a></p>
 
-                </div>
+          </div>
 
-                
-                <div class="col-md-4 mb-2 footer-center-sm" style="border-bottom: 1px solid #b6babd;">
-                  
-                  <p style="color: #d77464">Our Services</p>
+          
+          <div class="col-md-4 mb-2 footer-center-sm" style="border-bottom: 1px solid #b6babd;">
+            
+            <p style="color: #d77464">Our Services</p>
 
-                  <p class="mt-3"><a href="#">Website Design & Development</a></p>
-                  <p><a href="#">Software Development</a></p>
-                  <p><a href="#">Network Installation</a></p>
-                  <p><a href="#">ICT Consultancy</a></p>
+            <p class="mt-3"><a href="#">Website Design & Development</a></p>
+            <p><a href="#">Software Development</a></p>
+            <p><a href="#">Network Installation</a></p>
+            <p><a href="#">ICT Consultancy</a></p>
 
-                </div>
+        </div>
 
-                  
-                
-                <div class="col-md-4 footer-center-sm">
-                
-                <p style="color: #d77464">Contact Us</p>
+            
+          
+          <div class="col-md-4 footer-center-sm">
+          
+            <p style="color: #d77464">Contact Us</p>
 
-                  <p class="mt-3">Nileplex plaza, Mekelle, Tigray, Ethiopia</p>
-                  <p>Phone: (+251) 914 -024366</p>
-                  <p>Email: contact@ahazna.com</p>
+              <p class="mt-3">Nileplex plaza, Mekelle, Tigray, Ethiopia</p>
+              <p>Phone: (+251) 914 -024366</p>
+              <p>Email: contact@ahazna.com</p>
 
-                <p style="color: #d77464; text-align: center;">Ethiopia</p>
+            <p style="color: #d77464; text-align: center;">Ethiopia</p>
 
-                </div>
+          </div>
 
-              </div>
+        </div>
 
-        <div class="privacy-footer">
-        <p style="text-align: center; margin-bottom: 0px; color: #2c3e50;"><img src="{{ asset('storage/images/logo.png')}}" height="48" class="mr-2 p-2">Ahaz Electronic & Software Solutions @ 2020 </p>
-      </div>
+        <div class="row privacy-footer" style="display: block;">
+        <p style="margin-bottom: 0px; color: #2c3e50; text-align: center;"><img src="{{ asset('storage/images/logo.png')}}" height="48" class="mr-2 p-2">Ahaz Electronic & Software Solutions @ 2020 </p>
+        </div>
 
 </div>
             
