@@ -11071,7 +11071,8 @@ body {
  */
 
 .cover {
-  padding: 0 1.5rem;
+  padding: 36px;
+  background-color: #b56c5fad;
 }
 
 .cover .btn-lg,
@@ -11082,6 +11083,19 @@ body {
 
 .cover-heading {
   font-weight: bold;
+  border-bottom: 1px solid;
+}
+
+.contact-us-bg {
+  background-color: #ffffff73;
+  font-size: 13px;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contact-us-bg > p {
+  text-align: center;
 }
 
 /* this setting is for the background image women image to be specific*/
