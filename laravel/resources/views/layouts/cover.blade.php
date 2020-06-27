@@ -35,7 +35,7 @@
 
     <div class="container d-flex w-100 p-3 mx-auto flex-column">
 
-      <header class="masthead">
+      <header class="masthead mb-auto">
         <div class="inner">
           <h3 class="masthead-brand">
             <a href="/" style="text-decoration: none;" ><img src="{{ asset('storage/images/logo.png')}}" height="36" class="mr-2">
