@@ -3,7 +3,7 @@
 @section('content')
 
 
-	<div class="container m-auto p-3 mx-auto d-none d-md-block">
+	<div class="container m-auto p-3 mx-auto d-none d-sm-block">
 
        
 	   <div class="row text-center">
@@ -34,11 +34,13 @@
 
 
                 <div class="avatar mx-auto mb-3 p-3">
-                    <img src="https://mdbootstrap.com/img/Photos/Avatars/sebastian%20(1).jpg" class="rounded-circle z-depth-1">
+
+                	<a href="{{ asset('storage/images/meke-pic.jpeg')}}"><img src="{{ asset('storage/images/meke-pic.jpeg')}}" class="rounded-circle z-depth-1" width=200 height=200></a>
+
                 </div>
 
                 <h6 class="font-weight-bold mb-3">DR. MEKONNEN GEBREHIWOT</h6>
-                <h6>Electromechanics</h6>
+                <h6>Electromechanical Engineer</h6>
 
             </div>
             <!--Grid column-->
@@ -47,11 +49,13 @@
             <div class="col-lg-4 col-md-6 mb-4">
 
                 <div class="avatar mx-auto mb-3 p-3">
-                    <img src="https://mdbootstrap.com/img/Photos/Avatars/sebastian%20(1).jpg" class="rounded-circle z-depth-1">
+
+                	<a href="{{ asset('storage/images/ataklti-pic.jpeg')}}"><img src="{{ asset('storage/images/ataklti-pic.jpeg')}}" class="rounded-circle z-depth-1" width=200 height=200></a>
+
                 </div>
 
                 <h6 class="font-weight-bold mb-3">DR. ATAKLTI GEBREMEDHIN</h6>
-                <h6>Electromechanics</h6>
+                <h6>Nanophysics</h6>
 
             </div>
             <!--Grid column-->
@@ -60,11 +64,11 @@
             <div class="col-lg-4 col-md-6 mb-4">
                 
                 <div class="avatar mx-auto mb-3 p-3">
-                    <img src="https://mdbootstrap.com/img/Photos/Avatars/sebastian%20(1).jpg" class="rounded-circle z-depth-1">
+                    <a href="{{ asset('storage/images/jossi-pic.jpg')}}"><img src="{{ asset('storage/images/jossi-pic.jpg')}}" class="rounded-circle z-depth-1" width=200 height=200></a>
                 </div>
 
                 <h6 class="font-weight-bold mb-3">ATO. YOSIEF GIRMAY</h6>
-                <h6>Digital Marketing</h6>
+                <h6>Logistics Management</h6>
 
             </div>
             <!--Grid column-->
@@ -108,11 +112,13 @@
 
 
                 <div class="avatar mx-auto mb-3 p-3">
-                    <img src="https://mdbootstrap.com/img/Photos/Avatars/sebastian%20(1).jpg" class="rounded-circle z-depth-1">
+
+                	<a href="{{ asset('storage/images/meke-pic.jpeg')}}"><img src="{{ asset('storage/images/meke-pic.jpeg')}}" class="rounded-circle z-depth-1" width=200 height=200></a>
+
                 </div>
 
                 <h6 class="font-weight-bold mb-3">DR. MEKONNEN GEBREHIWOT</h6>
-                <h6>Electromechanics</h6>
+                <h6>Electromechanical Engineer</h6>
 
             </div>
             <!--Grid column-->
@@ -121,11 +127,13 @@
             <div class="col-lg-4 col-md-6 mb-4">
 
                 <div class="avatar mx-auto mb-3 p-3">
-                    <img src="https://mdbootstrap.com/img/Photos/Avatars/sebastian%20(1).jpg" class="rounded-circle z-depth-1">
+
+                	 <a href="{{ asset('storage/images/ataklti-pic.jpeg')}}"><img src="{{ asset('storage/images/ataklti-pic.jpeg')}}" class="rounded-circle z-depth-1" width=200 height=200></a>
+
                 </div>
 
                 <h6 class="font-weight-bold mb-3">DR. ATAKLTI GEBREMEDHIN</h6>
-                <h6>Electromechanics</h6>
+                <h6>Nanophysics</h6>
 
             </div>
             <!--Grid column-->
@@ -134,11 +142,13 @@
             <div class="col-lg-4 col-md-6 mb-4">
                 
                 <div class="avatar mx-auto mb-3 p-3">
-                    <img src="https://mdbootstrap.com/img/Photos/Avatars/sebastian%20(1).jpg" class="rounded-circle z-depth-1">
+
+                	<a href="{{ asset('storage/images/jossi-pic.jpg')}}"><img src="{{ asset('storage/images/jossi-pic.jpg')}}" class="rounded-circle z-depth-1" width=200 height=200></a>
+
                 </div>
 
                 <h6 class="font-weight-bold mb-3">ATO. YOSIEF GIRMAY</h6>
-                <h6>Digital Marketing</h6>
+                <h6>Logistics Management</h6>
 
             </div>
             <!--Grid column-->
