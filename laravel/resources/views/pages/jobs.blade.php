@@ -2,6 +2,8 @@
 
 @section('content')
 
+<div class="h-100 d-none d-md-block">
+
 <div class="container-fluid m-auto d-flex w-100 h-100 p-3 mx-auto flex-column">
 
 	<div class="inner container m-auto cover p-3 mx-auto d-none d-md-block">
@@ -20,7 +22,10 @@
 
 	</div>
 
-	<div class="inner container m-auto cover p-3 mx-auto d-md-none">
+</div>
+</div>
+
+<div class="inner container m-auto cover p-3 mx-auto d-sm-none">
 
 		<div class="row">
 			<div class="col-md-4">
@@ -33,9 +38,6 @@
 			</div>
 		</div>
 
-	</div>
-
 </div>
-
 
 @endsection
