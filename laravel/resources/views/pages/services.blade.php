@@ -2,8 +2,10 @@
 
 @section('content')
 
-    <div class="container m-auto">
-        <h1> Our Services Page </h1>
-    </div>
+    <div class="container-fluid m-auto d-flex w-100 h-100 p-3 mx-auto flex-column">
+		<div class="inner container m-auto p-3 mx-auto">
+			<h1>Our services</h1>
+		</div>
+	</div>
 
 @endsection
