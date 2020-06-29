@@ -37,6 +37,17 @@ a:hover {
   text-align: center !important;
 }
 
+.image-projects{
+  background-image: url('/storage/images/projects-pic.jpeg');
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+}
+
+
 /*
  * Base structure
  */

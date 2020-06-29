@@ -67,7 +67,7 @@
                     <a href="{{ asset('storage/images/jossi-pic.jpg')}}"><img src="{{ asset('storage/images/jossi-pic.jpg')}}" class="rounded-circle z-depth-1" width=200 height=200></a>
                 </div>
 
-                <h6 class="font-weight-bold mb-3">ATO. YOSIEF GIRMAY</h6>
+                <h6 class="font-weight-bold mb-3">ATO. YOSIEF GHIRMAI</h6>
                 <h6>Logistics Management</h6>
 
             </div>
@@ -147,7 +147,7 @@
 
                 </div>
 
-                <h6 class="font-weight-bold mb-3">ATO. YOSIEF GIRMAY</h6>
+                <h6 class="font-weight-bold mb-3">ATO. YOSIEF GHIRMAI</h6>
                 <h6>Logistics Management</h6>
 
             </div>
