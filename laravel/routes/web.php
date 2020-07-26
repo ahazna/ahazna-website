@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'WelcomeController@index')->name('home');
+Route::get('aboutus','AboutUsController@index')->name('aboutus');
 Route::get('contactus','ContactUsController@index')->name('contactus');
 Route::get('about','AboutController@index')->name('about');
 Route::get('services','ServicesController@index')->name('services');

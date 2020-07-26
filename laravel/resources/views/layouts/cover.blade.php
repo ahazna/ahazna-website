@@ -43,6 +43,7 @@
           </h3>
           <nav class="nav nav-masthead justify-content-center">
             <a class="nav-link {{(Route::currentRouteName() == 'home') ? 'active':''}}" href="/">Home</a>
+            <a class="nav-link {{(Route::currentRouteName() == 'aboutus') ? 'active':''}}" href="/aboutus">About</a>
             <a class="nav-link {{(Route::currentRouteName() == 'products') ? 'active':''}}" href="/products">Products</a>
             <a class="nav-link {{(Route::currentRouteName() == 'services') ? 'active':''}}" href="/services">Services</a>
             <a class="nav-link {{(Route::currentRouteName() == 'projects') ? 'active':''}}" href="/projects">Projects</a>

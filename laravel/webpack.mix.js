@@ -14,6 +14,5 @@ const mix = require('laravel-mix');
 mix.react('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .sass('resources/sass/cover.scss', 'public/css')
-    .sass('node_modules/font-awesome/fonts/','public/fonts')
     .sass('resources/sass/contactus.scss', 'public/css');
 

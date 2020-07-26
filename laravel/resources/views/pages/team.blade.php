@@ -17,7 +17,7 @@
 	                <a href="{{ asset('storage/images/efrem-pro.jpg')}}"><img src="{{ asset('storage/images/efrem-pro.jpg')}}" class="rounded-circle z-depth-1" width=200 height=200></a>
 	            </div>
 
-	            <h6 class="font-weight-bold mb-3">ENG. EFREM GEBREMEDHIN</h6>
+	            <h6 class="font-weight-bold mb-3">IR. EFREM GEBREMEDHIN</h6>
 	            <h6>Full Stack Developer</h6>
 
 	        </div>
@@ -157,4 +157,5 @@
 
 	</div>
 </div>
+
  @endsection

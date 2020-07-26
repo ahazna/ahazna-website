@@ -1,7 +1,7 @@
 @extends('layouts.cover')
 
 @section('content')
-
+<!-- 
     <div class="container m-auto">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -24,6 +24,16 @@
 
             
             </div>
+        </div> -->
+
+
+    <div class="container-fluid h-100 m-auto d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <div class="inner container m-auto p-3 mx-auto">
+            <h1>Ahaz</h1>
+            <p style="text-align: center">Electronic ans Software solutions</p>
+            
         </div>
+    </div>
+
 
 @endsection
