@@ -38,8 +38,9 @@
       <header class="masthead mb-auto">
         <div class="inner">
           <h3 class="masthead-brand">
-            <a href="/" style="text-decoration: none;" ><img src="{{ asset('storage/images/logo.png')}}" height="36" class="mr-2">
-            AHAZ</a>
+            <!-- <a href="/" style="text-decoration: none;" ><img src="{{ asset('storage/images/logo.png')}}" height="36" class="mr-2">
+            AHAZ</a> -->
+            <a href="/" style="text-decoration: none;" >AHAZ</a>
           </h3>
           <nav class="nav nav-masthead justify-content-center">
             <a class="nav-link {{(Route::currentRouteName() == 'home') ? 'active':''}}" href="/">Home</a>
