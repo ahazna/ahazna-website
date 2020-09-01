@@ -20,11 +20,12 @@
   <header class="masthead mb-auto">
     <div class="inner">
       <h3 class="masthead-brand">
-        <a href="/" style="text-decoration: none;" ><img src="{{ asset('storage/images/logo.png')}}" height="36" class="mr-2">
+        <a href="/" style="text-decoration: none;" >
         AHAZ</a>
       </h3>
       <nav class="nav nav-masthead justify-content-center">
         <a class="nav-link {{(Route::currentRouteName() == 'home') ? 'active':''}}" href="/">Home</a>
+        <a class="nav-link {{(Route::currentRouteName() == 'aboutus') ? 'active':''}}" href="/aboutus">About</a>
         <a class="nav-link {{(Route::currentRouteName() == 'products') ? 'active':''}}" href="/products">Products</a>
         <a class="nav-link {{(Route::currentRouteName() == 'services') ? 'active':''}}" href="/services">Services</a>
         <a class="nav-link {{(Route::currentRouteName() == 'projects') ? 'active':''}}" href="/projects">Projects</a>
@@ -72,7 +73,7 @@
         
         <p style="color: #d77464">Contact Us</p>
 
-        <p class="mt-3">Nileplex plaza, Mekelle, Tigray, Ethiopia</p>
+        <p class="mt-3">GENFEL HOTEL, Mekelle, Tigray, Ethiopia</p>
         <p>Phone: (+251) 914 -024366</p>
         <p>Email: contact@ahazna.com</p>
 
@@ -82,9 +83,13 @@
 
     </div>
 
-    <div class="privacy-footer">
-        <p style="text-align: center; margin-bottom: 0px; color: #2c3e50;"><img src="{{ asset('storage/images/logo.png')}}" height="48" class="mr-2 p-2">Ahaz Electronic & Software Solutions @ 2020 </p>
+    <footer class="py-5 bg-dark">
+
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright © Ahaz Electronic & Software Solutions 2020</p>
       </div>
+
+    </footer>
 
   </div> 
 
@@ -120,7 +125,7 @@
       
       <p style="color: #d77464">Contact Us</p>
 
-      <p class="mt-3">Nileplex plaza, Mekelle, Tigray, Ethiopia</p>
+      <p class="mt-3">GENFEL HOTEL, Mekelle, Tigray, Ethiopia</p>
       <p>Phone: (+251) 914 -024366</p>
       <p>Email: contact@ahazna.com</p>
 
@@ -130,9 +135,13 @@
 
   </div>
 
-  <div class="row privacy-footer" style="display: block;">
-        <p style="margin-bottom: 0px; color: #2c3e50; text-align: center;"><img src="{{ asset('storage/images/logo.png')}}" height="48" class="mr-2 p-2">Ahaz Electronic & Software Solutions @ 2020 </p>
-  </div>
+    <footer class="py-5 bg-dark">
+
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright © Ahaz Electronic & Software Solutions 2020</p>
+      </div>
+
+    </footer>
 
 </div>
 

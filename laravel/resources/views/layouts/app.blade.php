@@ -84,7 +84,7 @@
                 
                 <p style="color: #d77464">Contact Us</p>
 
-                  <p class="mt-3">Nileplex plaza, Mekelle, Tigray, Ethiopia</p>
+                  <p class="mt-3">GENFEL HOTEL, Mekelle, Tigray, Ethiopia</p>
                   <p>Phone: (+251) 914 -024366</p>
                   <p>Email: contact@ahazna.com</p>
 

@@ -13,7 +13,7 @@
 
             <div class="contact-us-bg p-2">
 
-                <p class="lead" >Adress : 16 kebelle, above catholic church</p>
+                <p class="lead" >Adress : on the right side of Genfel Hotel, Kebele 19</p>
                 <p class="lead" >Mekelle, Tigray, Ethiopia </p>
 
             </div>

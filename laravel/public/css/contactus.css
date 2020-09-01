@@ -12,6 +12,7 @@ p {
 
 .privacy-footer {
   background-color: #b6babd;
+  min-height: 48px;
 }
 
 privacy-footer > p {
