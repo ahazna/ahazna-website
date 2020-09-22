@@ -36,7 +36,7 @@
 
 </div>
 
-     <div class="inner container m-auto p-3 background-img mx-auto d-sm-none">
+    <div class="inner container m-auto p-3 background-img mx-auto d-sm-none">
         
         <main role="main" class="inner p-3" style="color: black; background-color: #c870614d;">
             <h1 class="cover-heading">CONTACT US</h1>
