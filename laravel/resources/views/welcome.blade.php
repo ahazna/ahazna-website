@@ -41,16 +41,42 @@
                       Digital Solutions
                     </div>
                     <p class="lead text-center text-md-left mb-6 mb-lg-8" style="color: #a5b9cc;">
-              Build a beautiful, modern softwares, websites and android applications built with user centered design methodology.
+              Build a beautiful, modern softwares, websites and android applications built with user centered design built form scratch.
             </p>
-                </div>
+            </div>
                 
             </div>
-           
             
         </div>
 
+    </div>
 
+    <div class="container-fluid w-100" style="background-color: #fff; padding-right: 0px;">
+        
+        <div class="inner container m-auto p-3 mx-auto">
+            <h1 class="display-5 text-center"><span style="color: #000">THIS IS OUR </span><SPAN style="color:#dc8577; font-weight: 400" >DESIGN PROCESS</SPAN> </h1>
+            <hr/>
+            <div class="row align-items-center pt-3" style="color: #000;">
+                <div class="col-md-4">
+                    <img src="{{ asset('storage/images/project.png')}}" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 aos-init aos-animate" alt="..." data-aos="fade-up" data-aos-delay="100" width="100px">
+                    <h5 class="mt-3" style="font-weight: bold;">We Learn About Your Project Goals </h5>
+                    <p class="mt-2">This is a very crucial part of the process. Before we can start creating effective landing pages for your campain, we need to know what your overall business goals are. That's why we take the time to speak with every new client and understand what they're looking to achieve through their marketing efforts.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="{{ asset('storage/images/testing.png')}}" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 aos-init aos-animate" alt="..." data-aos="fade-up" data-aos-delay="100" width="100px">
+                    <h5 class="mt-3" style="font-weight: bold;">We Design a High Fidality Prototype </h5>
+
+                    <p class="mt-2" style="margin-bottom: 60px;">After finalizing user requirement study we work on the initial draft of your landig page, we pair our experience and expertise with your inputs. This is the recipe to create landing pages that are quite effective and to your liking.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="{{ asset('storage/images/launch.png')}}" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 aos-init aos-animate" alt="..." data-aos="fade-up" data-aos-delay="100" width="100px">
+                    <h5 class="mt-3" style="font-weight: bold;">Finally, Ideas Become Applications</h5>
+                    <p class="mt-2" style="margin-bottom: 81px;">Once we have your approval of our high fidelity prototype we will finalize the coding. We condut testing to evaluate the usability and functioality of the application using proven practictices.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
 
