@@ -27,30 +27,45 @@
 
                 <div class="col-md-6">
                     <h1 class="cover-heading mb-3">Get in Touch</h1>
-                    <p class="mb-3" style="color: white;">Feel free to get in touch with us. We are always open to discussing new projects and feel free to ask us questions regarding our company. We will get back to you soon.</p>
+                    <p class="mb-3" style="color: white;">Feel free to get in touch with us. We are always open to discussing new projects. We assure you with our best services. Thank you for contacting us. </p>
 
 
-                    <form style="text-align: left;">
+                    <form style="text-align: left;" action="/contactus" method="post">
+                        {{ csrf_field()}}
                         <div class="form-row">
                             <div class="form-group col-md-6">
                               <label for="name">Name</label>
-                              <input type="text" class="form-control" id="inputName">
+                              <input type="text" name="name" class="form-control" id="inputName">
                             </div>
                             <div class="form-group col-md-6">
                               <label for="email">Email</label>
-                              <input type="email" class="form-control" id="inputEmail">
+                              <input type="email" name="email" class="form-control" id="inputEmail" required>
                             </div>
                           </div>
 
                           <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="3"></textarea>
+                            <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
                           </div>
+
+                          @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+
+                           @endif
 
                         <button type="submit" class="btn btn-primary btn-block mb-2">Submit</button>
 
                     </form>
 
+                    @if(Session::has('alert-success'))
+                        <div class="alert alert-success"><span class="glyphicon glyphicon-ok"></span><em> {!! session('alert-success') !!}</em></div>
+                    @endif 
                 </div>
 
                     

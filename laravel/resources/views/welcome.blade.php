@@ -31,6 +31,7 @@
         
         <div class="inner container m-auto p-3 mx-auto">
 
+           <!--  <div class="divider" style="font-family:'Lato';"><h2><span></span><span>WELCOME TO AHAZ</span><span></span></h2></div> -->
             
         </div>
 

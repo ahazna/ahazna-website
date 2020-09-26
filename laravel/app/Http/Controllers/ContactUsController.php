@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\URL;
+use App\Contactus;
 
 class ContactUsController extends Controller
 {
@@ -36,7 +37,18 @@ class ContactUsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validateData = $request->validate([
+
+            'email' => 'required|email',
+            'message' => 'required',
+
+        ]);
+
+        Contactus::create($request->all());
+
+        $request->session()->flash('alert-success', 'message was successful sent. We will get back to you soon!');
+
+        return redirect('/contactus');
     }
 
     /**

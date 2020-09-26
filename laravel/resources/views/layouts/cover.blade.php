@@ -96,7 +96,7 @@
         
         <p style="color: #d77464">Contact Us</p>
 
-          <p class="mt-3">Mederegent taxi, kebele 19, Mekelle, Tigray, Ethiopia</p>
+          <p class="mt-3">Mideregent taxi, kebele 19, Mekelle, Tigray, Ethiopia</p>
           <p>Phone: (+251) 914 -024366</p>
           <p>Email: contact@ahazna.com</p>
 
@@ -151,7 +151,7 @@
           
             <p style="color: #d77464">Contact Us</p>
 
-              <p class="mt-3">Mederegenet taxi, kebele 19, Mekelle, Tigray, Ethiopia</p>
+              <p class="mt-3">Mideregenet taxi, kebele 19, Mekelle, Tigray, Ethiopia</p>
               <p>Phone: (+251) 914 -024366</p>
               <p>Email: contact@ahazna.com</p>
 
