@@ -52,9 +52,10 @@
  -->            
 <!--  <a class="nav-link {{(Route::currentRouteName() == 'projects') ? 'active':''}}" href="/projects">Projects</a>
  -->            
- <a class="nav-link {{(Route::currentRouteName() == 'team') ? 'active':''}}" href="/team">Team</a>
+ 
             <a class="nav-link {{(Route::currentRouteName() == 'contactus') ? 'active':''}}" href="/contactus">Contact</a>
             <a class="nav-link {{(Route::currentRouteName() == 'jobs') ? 'active':''}}" href="/jobs">Jobs</a>
+            <a class="nav-link {{(Route::currentRouteName() == 'team') ? 'active':''}}" href="/team">Team</a>
           </nav>
         </div>
       </header>
