@@ -1,50 +1,42 @@
-
+/**
+* For all footers in the website
+*/
 .footer{
-
-	//position: fixed;
-    //bottom: 0px;
-    //left: 0px;
-    //right: 0px;
-    //margin-bottom: 0px;
-
- 	position: relative;
-    //left: 0;
+    position: relative;
     bottom: 0;
-    ///height: 100px;
-    ///width: 100%;
-    //overflow: hidden;
-
 }
 
 p{
 	text-align: left;
 }
 
+/**
+* setting color for @ahazna all rights reserved
+*/
 .privacy-footer{
-
 	background-color: #b6babd;
     min-height: 48px;
-
 }
 
+//@ahazna  privacy text to center
 privacy-footer > p{
-		
-	text-align: center !important;
-
+    text-align: center !important;
 }
+
+/**
+* Settings for the footer
+*/
 .footer-menu {
-		// Body
-background-color: #f8fafc;
-// Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
-$font-size-base: 0.9rem;
-$line-height-base: 1.6;
-color: black !important;
-padding: 48px;
-text-align: center;
-font-size: 13px;
-font-weight: 400;
-letter-spacing: 0.1rem;
-text-decoration: none;
-text-transform: uppercase;
+    background-color: #f8fafc;
+    $font-family-sans-serif: 'Nunito', sans-serif;
+    $font-size-base: 0.9rem;
+    $line-height-base: 1.6;
+    color: black !important;
+    padding: 48px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
 }
