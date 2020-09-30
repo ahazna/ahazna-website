@@ -15,13 +15,12 @@
 
 			<div class="col-md-8">
 				<h1 class="cover-heading">JOIN US</h1>
-				<p class="lead">Don't hesitate to <a href="mailto:contact@nahazna.com" style="color: #ff8875;">send us</a> an open application, as we're always on the lookout for people with relevant skills to add to our team!</p>
+				<p class="lead">Don't hesitate to <a href="mailto:contact@ahazna.com" style="color: #ff8875;">send us</a> an open application, as we're always on the lookout for people with relevant skills to add to our team!</p>
 
 			</div>
 		</div>
 
 	</div>
-
 </div>
 </div>
 

@@ -41,7 +41,7 @@
                       Digital Solutions
                     </div>
                     <p class="lead text-center text-md-left mb-6 mb-lg-8" style="color: #a5b9cc;">
-              Build a beautiful, modern software, websites, and android applications built with user centered design built from scratch.
+              Build a beautiful, modern software, websites, and android applications built with a user-centered design from scratch.
             </p>
             </div>
                 
