@@ -1,22 +1,15 @@
+/**
+* Footer style
+*/
 
 .footer{
 
-	//position: fixed;
-    //bottom: 0px;
-    //left: 0px;
-    //right: 0px;
-    //margin-bottom: 0px;
-
  	position: relative;
-    //left: 0;
     bottom: 0;
-    ///height: 100px;
-    ///width: 100%;
-    //overflow: hidden;
-
 }
 
 p{
+
 	text-align: left;
 }
 
@@ -24,27 +17,28 @@ p{
 
 	background-color: #b6babd;
     min-height: 48px;
-
 }
 
 privacy-footer > p{
 		
 	text-align: center !important;
-
 }
+
 .footer-menu {
-		// Body
-background-color: #f8fafc;
-// Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
-$font-size-base: 0.9rem;
-$line-height-base: 1.6;
-color: black !important;
-padding: 48px;
-text-align: center;
-font-size: 13px;
-font-weight: 400;
-letter-spacing: 0.1rem;
-text-decoration: none;
-text-transform: uppercase;
+
+    // Body
+    background-color: #f8fafc;
+    
+    // Typography
+    $font-family-sans-serif: 'Nunito', sans-serif;
+    $font-size-base: 0.9rem;
+    $line-height-base: 1.6;
+    color: black !important;
+    padding: 48px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
 }
