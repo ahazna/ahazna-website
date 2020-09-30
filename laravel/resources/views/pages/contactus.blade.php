@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="d-none d-sm-block h-100">
+<div class="h-100">
 
 <div class="container-fluid m-auto h-100 d-flex w-100 p-3 mx-auto flex-column">
 
@@ -91,7 +91,7 @@
 
 </div>
 
-    <div class="inner container m-auto p-3 background-img mx-auto d-sm-none">
+<!--     <div class="inner container m-auto p-3 background-img mx-auto d-sm-none">
         
         <main role="main" class="inner p-3" style="color: black; background-color: #c870614d;">
             <h1 class="cover-heading">CONTACT US</h1>
@@ -115,6 +115,6 @@
 
         </main>
 
-    </div>
+    </div> -->
 
 @endsection

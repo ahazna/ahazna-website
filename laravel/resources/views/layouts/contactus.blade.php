@@ -91,7 +91,18 @@
     <footer class="py-5 bg-dark">
 
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright © Ahaz Electronic & Software Solutions 2020</p>
+        <div class="row">
+            <div class="col s2">
+              <h4 class="h-widget">Follow us</h4>
+                  <span><a href="https://www.facebook.com/AHAZ-100496758394259" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a></span>
+                           
+            </div>
+
+              <div class="col s6">
+                <p class="h-widget">Copyright © Ahaz Electronic & Software Solutions 2020</p>
+              </div>
+           </div>
       </div>
 
     </footer>
