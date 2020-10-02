@@ -20,10 +20,10 @@
             </p>
             
             <div class="text-center text-md-left">
-              <a href="/contactus" class="btn btn-primary shadow lift mr-1">
+              <a href="/contactus" class="btn btn-lg btn-primary shadow lift mr-1">
                 Contact Us <i class="fe fe-arrow-right d-none d-md-inline ml-3"></i>
             </a>
-            <a href="" class="btn btn-light lift">
+            <a href="" class="btn btn-lg btn-light lift">
              View Our Projects
          </a>
      </div>
