@@ -50,8 +50,8 @@
  -->            
 <!--  <a class="nav-link {{(Route::currentRouteName() == 'services') ? 'active':''}}" href="/services">Services</a>
  -->            
-<!--  <a class="nav-link {{(Route::currentRouteName() == 'projects') ? 'active':''}}" href="/projects">Projects</a>
- -->            
+<!--  <a class="nav-link {{(Route::currentRouteName() == 'projects') ? 'active':''}}" href="/projects">Projects</a> -->
+            
  
             <a class="nav-link {{(Route::currentRouteName() == 'contactus') ? 'active':''}}" href="/contactus">Contact</a>
             <a class="nav-link {{(Route::currentRouteName() == 'jobs') ? 'active':''}}" href="/jobs">Jobs</a>
@@ -115,6 +115,10 @@
 
        <div class="container">
            <div class="row">
+            <div class="map col s2">  
+              <h4 class="h-widget">Find us</h4>
+              <div id="map" class="map"></div>            
+            </div>
             <div class="col s2">
               <h4 class="h-widget">Follow us</h4>
                   <span><a href="https://www.facebook.com/AHAZ-100496758394259" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>
@@ -199,6 +203,19 @@
 </div>
             
      <script src="{{ asset('js/app.js')}}"></script>
+     <script>
+       function initMap(){
+
+        var map = new google.maps.Map(document.querySelector('#map'), {
+
+          center: { lat: 13.4922048, lng: 39.4693142},
+          zoom: 7
+        }
+
+          )
+       }
+     </script>
+     <script  async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQM0euXEncum5WMKWLgLb6a6h9X4BRbmU&callback=initMap"></script>
 
 </body>
 

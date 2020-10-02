@@ -14198,3 +14198,8 @@ p > a:hover {
   border-bottom: 1px solid #e4dcdc;
 }
 
+.map {
+  width: 400px;
+  height: 200px;
+}
+

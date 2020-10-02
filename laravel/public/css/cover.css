@@ -14155,6 +14155,11 @@ p > a:hover {
   color: #1e4949;
 }
 
+.map {
+  width: 400px;
+  height: 200px;
+}
+
 .divider {
   /* minor cosmetics */
   display: table;
